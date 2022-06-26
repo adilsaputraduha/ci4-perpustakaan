@@ -20,18 +20,6 @@
             </p>
         </a>
         <ul class="nav nav-treeview ">
-            <li class="nav-item">
-                <a href="<?= base_url('supplier'); ?>" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Supplier</p>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="<?= base_url('barang'); ?>" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Barang</p>
-                </a>
-            </li>
             <?php if (session()->get('userLevel') == 0) { ?>
                 <li class="nav-item">
                     <a href="<?= base_url('user'); ?>" class="nav-link">
@@ -115,8 +103,8 @@
         <div class="row mt-2">
             <div class="col-sm-12">
                 <div class="alert alert-secondary" role="alert">
-                    <h6 class="mt-2 text-white">TOKO 73 </h6>
-                    <h5 class="m-0 text-white">Selamat Datang di Sistem Informasi Akuntansi Persediaan Barang Dagang</h5>
+                    <h6 class="mt-2 text-white">Perpustakaan Kabupaten Pasaman Barat</h6>
+                    <h5 class="m-0 text-white">Selamat Datang di Sistem Informasi Perpustakaan</h5>
                 </div>
             </div>
         </div>

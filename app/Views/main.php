@@ -7,9 +7,9 @@
     <title>Sistem Informasi Perpustakaan | Kabupaten Pasaman Barat</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="<?= base_url(); ?>/assets/images/logo.png">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/plugins/fontawesome-free/css/all.min.css">
+    <link rel="shortcut icon" href="<?= base_url(); ?>/assets/images/logo.png">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Tempusdominus Bbootstrap 4 -->
@@ -39,7 +39,7 @@
     <div class="wrapper">
 
         <!-- Navbar -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <nav class="main-header navbar navbar-expand navbar-dark navbar-dark">
             <!-- Left navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -57,16 +57,13 @@
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-light-secondary elevation-1">
+        <aside class="main-sidebar sidebar-dark-secondary elevation-1">
             <!-- Sidebar -->
             <div class="sidebar">
                 <!-- Sidebar user panel (optional) -->
-                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                <div class="user-panel mt-3 mb-3 text-center">
                     <div class="image">
-                        <img src="<?= base_url(); ?>/assets/dist/img/user1-128x128.jpg" class="img-circle elevation-1" alt="User Image">
-                    </div>
-                    <div class="info">
-                        <a href="<?= base_url('profile'); ?>" class="d-block"><?php echo session()->get('userNama'); ?></a>
+                        <img src="<?= base_url(); ?>/assets/images/logo.png" class="elevation-1 mb-2" alt="Image">
                     </div>
                 </div>
 
